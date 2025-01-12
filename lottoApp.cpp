@@ -1,3 +1,14 @@
+/*
+Author: Leonardo Neto
+The program reads the input.txt file with the bets, receives the lottery’s picks (input line identical to the file’s lines) 
+and reports the result as 4 space separated numbers in the console. It runs for each new lottery’s picks until input 'end'.
+- Building:
+g++ lottoApp.cpp -o lottoApp
+- Runing:
+./lottoApp input.txt
+- Stopping
+end
+*/
 #include <iostream>
 #include <vector>
 #include <thread>
